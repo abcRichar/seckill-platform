@@ -1,0 +1,43 @@
+# ==================== build / dependencies ====================
+backend/target/
+**/node_modules/
+**/dist/
+*.class
+
+# ==================== runtime ====================
+backend/logs/
+logs/
+*.log
+*.pid
+
+# ==================== local config / secrets ====================
+.env
+.env.*
+!.env.example
+backend/src/main/resources/application-local.yml
+*.pem
+*.key
+*.p12
+
+# ==================== uploaded files (keep demo assets) ====================
+uploads/*
+!uploads/seed/
+!uploads/seed/**
+
+# ==================== IDE / OS ====================
+.idea/
+*.iml
+.vscode/
+.claude/
+Thumbs.db
+.DS_Store
+
+# ==================== local temp ====================
+tmp-*
+*.tmp
+*.bak
+*.xlsx
+*.sql.gz
+
+# temporary debug screenshots
+docs/screens/_*.png

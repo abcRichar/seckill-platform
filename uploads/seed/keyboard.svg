@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#374151"/>
+      <stop offset="100%" stop-color="#6b7280"/>
+    </linearGradient>
+    <radialGradient id="r" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#g)"/>
+  <rect width="600" height="600" fill="url(#r)"/>
+  <circle cx="500" cy="110" r="150" fill="#ffffff" opacity="0.08"/>
+  <circle cx="80" cy="540" r="190" fill="#000000" opacity="0.10"/>
+  <text x="300" y="310" font-size="190" text-anchor="middle" dominant-baseline="middle"
+        font-family="Segoe UI Emoji, Apple Color Emoji, Microsoft YaHei">⌨️</text>
+  <text x="300" y="455" font-size="34" font-weight="700" text-anchor="middle"
+        fill="#ffffff" font-family="Microsoft YaHei, Segoe UI">静音机械键盘</text>
+  <text x="300" y="510" font-size="19" letter-spacing="7" text-anchor="middle"
+        fill="#ffffff" opacity="0.72" font-family="Segoe UI">SECKILL SELECT</text>
+</svg>
